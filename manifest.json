@@ -2,8 +2,8 @@
  "manifest_version":2,
 
  "name": "Bulkhead",
- "description": "Append a string to the current tab's ulr, after the tld. Useful for UWaterloo library proxy use.",
- "version": "0.1",
+ "description": "Append a string to the current tab's URL, after the TLD section. Useful for UWaterloo library proxy use.",
+ "version": "0.2",
 
  "browser_action": {
      "default_icon": "bulkhead.png"

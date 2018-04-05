@@ -2,6 +2,7 @@
 // found in the LICENSE file.
 
 // Called when the user clicks on the browser action.
+
 chrome.browserAction.onClicked.addListener(function(tab) {
     var tab_url = tab.url
     var i_protocol = tab_url.indexOf('//')
