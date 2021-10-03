@@ -1,0 +1,21 @@
+{
+ "manifest_version":2,
+ "name": "FFBulkhead",
+ "description": "Append a string to the current tab's URL, after the TLD section. Useful for UWaterloo library proxy use.",
+ "version": "0.1",
+
+ "browser_action": {
+     "default_icon": "icons/bulkhead.png"
+ },
+
+ "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+ "permissions": [
+     "tabs",
+     "activeTab"
+ ]
+
+}
